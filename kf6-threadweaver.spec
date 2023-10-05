@@ -1,6 +1,6 @@
 %define libname %mklibname KF6ThreadWeaver
 %define devname %mklibname KF6ThreadWeaver -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-threadweaver
 Version: 5.240.0
@@ -69,7 +69,6 @@ Helper for multithreaded programming
 %files -n %{devname}
 %{_includedir}/KF6/ThreadWeaver
 %{_libdir}/cmake/KF6ThreadWeaver
-%{_qtdir}/mkspecs/modules/qt_ThreadWeaver.pri
 %{_qtdir}/doc/KF6ThreadWeaver.*
 
 %files -n %{libname}
