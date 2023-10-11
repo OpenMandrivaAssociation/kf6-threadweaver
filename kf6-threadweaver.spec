@@ -1,6 +1,6 @@
 %define libname %mklibname KF6ThreadWeaver
 %define devname %mklibname KF6ThreadWeaver -d
-%define git 20231010
+%define git 20231011
 
 Name: kf6-threadweaver
 Version: 5.240.0
