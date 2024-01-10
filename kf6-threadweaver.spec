@@ -5,7 +5,7 @@
 #define git 20231103
 
 Name: kf6-threadweaver
-Version: 5.247.0
+Version: 5.248.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/threadweaver/-/archive/master/threadweaver-master.tar.bz2#/threadweaver-%{git}.tar.bz2
