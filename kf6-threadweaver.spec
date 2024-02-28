@@ -2,10 +2,10 @@
 
 %define libname %mklibname KF6ThreadWeaver
 %define devname %mklibname KF6ThreadWeaver -d
-%define git 20240217
+#define git 20240217
 
 Name: kf6-threadweaver
-Version: 5.250.0
+Version: 6.0.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/threadweaver/-/archive/master/threadweaver-master.tar.bz2#/threadweaver-%{git}.tar.bz2
